@@ -1,0 +1,76 @@
+* {
+    margin:0;
+    padding:0;
+    }
+    
+    
+    .wrapper { 
+    margin-top:1.5em;
+      display:block;
+    }
+    
+    ul {
+    list-style:none;
+    display:inline-block;
+    }
+    
+    .dot,
+    ul li {
+    width:1.5em;
+    height:1.5em;
+    margin:8px;
+    outline: rgb(0,0,0);
+    outline-style: solid;
+    }
+    
+    .dot {
+    background:rgb(0,0,0);
+    border-radius:50%;
+      cursor:pointer;
+      -webkit-transition:all 1.5s ease;
+        -moz-transition:all 1.5s ease; 
+        -o-transition:all 1.5s ease; 
+        transition:all 1.5s ease;
+    
+    }
+    
+
+    .quadrado {
+    background:#000;
+    border-radius:0%;
+    
+    }
+    body{
+      background:#fff;
+      animation:bgfade 1.5s;
+      -webkit-animation:bgfade 1.5s; /* Safari and Chrome */}
+    
+    @keyframes bgfade
+    {
+    0%   {opacity:0;}
+    10%  {opacity:0.1;}
+    20%  {opacity:0.2;}
+    30%  {opacity:0.3;}
+    40%  {opacity:0.4;}
+    50%  {opacity:0.5;}
+    60%  {opacity:0.6;}
+    70%  {opacity:0.7;}
+    80%  {opacity:0.8;}
+    90%  {opacity:0.9;}
+    100% {opacity:1;}
+    }
+    
+    @-webkit-keyframes bgfade /* Safari and Chrome */
+    {
+      0%   {opacity:0;}
+      10%  {opacity:0.1;}
+      20%  {opacity:0.2;}
+      30%  {opacity:0.3;}
+      40%  {opacity:0.4;}
+      50%  {opacity:0.5;}
+      60%  {opacity:0.6;}
+      70%  {opacity:0.7;}
+      80%  {opacity:0.8;}
+      90%  {opacity:0.9;}
+      100% {opacity:1;}
+    }
